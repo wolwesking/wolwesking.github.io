@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--Projects TAB-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q9WZYG23VY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q9WZYG23VY");
+    </script>
+    <title>Patrick-Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <img id="ProfilePicture" src="./Images/Pfp.jpg" alt="ProfilePicture" />
+      <h1 id="glow">Patrick Takacs</h1>
+    </header>
+
+    <nav id="navigationBox">
+      <a href="https://github.com/wolwesking" target="_blank">
+        <img class="icon" id="github" src="./Images/github.png" alt="github" />
+      </a>
+
+      <a
+        href="https://www.upwork.com/freelancers/~0152bb4bf6cf1379b7?viewMode=1"
+        target="_blank"
+      >
+        <img class="icon" src="./Images/upwork.png" alt="Upwork" />
+      </a>
+
+      <a href="https://www.freelancer.com/u/wolwesking" target="_blank">
+        <img class="icon" src="./Images/freelancer.png" alt="Freelancer" />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/patrick-takacs-5798a6248/"
+        target="_blank"
+      >
+        <img
+          class="icon"
+          src="./Images/LinkedIn_logo_initials.png"
+          alt="Linkedin"
+        />
+      </a>
+      <a href="https://twitter.com/wolwesking" target="_blank">
+        <img class="icon" src="./Images/twitter.png" alt="Twitter" />
+      </a>
+    </nav>
+    <main>
+      <nav id="Buttons">
+        <div class="ButtonsDiv">Projects</div>
+        <div class="ButtonsDiv" onclick="location.href='./skills.html'">
+          Skills
+        </div>
+        <div class="ButtonsDiv" onclick="location.href='./works.html'">
+          Work
+        </div>
+        <div class="ButtonsDiv" onclick="location.href='./Certifications.html'">
+          Certifications
+        </div>
+      </nav>
+      <section id="Greeting">
+        <p>
+          Hi! Thanks for your visit! My name is Patrick Takacs. I'm a junior
+          developer obsessed with programming. I'm looking forward to work with
+          you. Please watch the other tabs!
+        </p>
+      </section>
+      <section id="projects">
+        <h1>Game development</h1>
+        <section id="projects-GameDev">
+          <div class="project">
+            <p>Circus Baby Pizza Place (Horror)</p>
+            <div
+              class="ButtonsDiv"
+              onclick="window.open('https:/\/gamejolt.com/games/Circus_baby_pizza_place/634500', '_blank')"
+            >
+              Open
+            </div>
+          </div>
+        </section>
+
+        <section id="projects-DesktopApp">
+          <h1>Desktop:</h1>
+          <div class="project">
+            <p>Note taking app</p>
+            <div
+              class="ButtonsDiv"
+              onclick="window.open('https:/\/github.com/wolwesking/Note-App', '_blank')"
+            >
+              Open
+            </div>
+          </div>
+
+          <div class="project">
+            <p>Windows based audio player</p>
+            <div
+              class="ButtonsDiv"
+              onclick="window.open('https:/\/github.com/wolwesking/AudioPlayer', '_blank')"
+            >
+              Open
+            </div>
+          </div>
+
+          <div class="project">
+            <p>Tic Tac Toe game</p>
+            <div
+              class="ButtonsDiv"
+              onclick="window.open('https:/\/github.com/wolwesking/Tic-Tac-Toe', '_blank')"
+            >
+              Open
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+body {
+    background-image: linear-gradient(rgb(22 78 99), rgb(29 78 216));
+    background-repeat: no-repeat;
+    font-family: Roboto, Courier, monospace;
+    margin: 0px;
+
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+#navigationBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+
+  border-top: 2px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#ProfilePicture {
+    width: 15rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 500px black;
+}
+
+#glow {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(229, 235, 255);
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e6de,
+      0 0 40px #00e6de, 0 0 50px #00e6de, 0 0 60px #00e6de, 0 0 70px #00e6de;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4d8bff, 0 0 40px #4d8bff,
+      0 0 50px #4d8bff, 0 0 60px #4d8bff, 0 0 70px #4d8bff, 0 0 80px #4d8bff;
+  }
+}
+
+.icon {
+  width: 4rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    
+    padding-top: 2vh;
+    padding-bottom: 2vw;
+
+
+    text-align: center;
+    color: white;
+
+    background: rgba(255, 255, 255, 0.1);
+
+    border-top: 2px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#Buttons{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ButtonsDiv {
+    border: 2px  white solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2) ;
+    width: 120px;
+    text-align: center;
+    transition: background 0.4s, color 0.2s;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ButtonsDiv:hover {
+    background: rgba(255, 255, 255, 1) ;
+    color: black;
+}
+
+.Certifications {
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    border-top: 2px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+
+    width: calc(100%-1vw);
+
+    font-size: 20px;
+}
+
+.Certifications > p {
+    font-size: 22px;
+}
+
+.Certifications > h1{
+    text-shadow: 0 5px 50px black;
+}
+
+.cert {
+    width:967px;
+    border-radius: 20px;
+}
+
+#Certifications_flex {
+    font-size: 20px;
+    border-top: 2px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;     
+    text-shadow: 0 5px 50px black;
+
+    width: 100%;
+}

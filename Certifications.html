@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Certifications.css" />
+    <title>Patrick-Work</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q9WZYG23VY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Q9WZYG23VY");
+    </script>
+  </head>
+  <body>
+    <header>
+      <img id="ProfilePicture" src="./Images/Pfp.jpg" alt="ProfilePicture" />
+      <h1 id="glow">Patrick Takacs</h1>
+    </header>
+
+    <nav id="navigationBox">
+      <a href="https://github.com/wolwesking" target="_blank">
+        <img class="icon" id="github" src="./Images/github.png" alt="github" />
+      </a>
+
+      <a
+        href="https://www.upwork.com/freelancers/~0152bb4bf6cf1379b7?viewMode=1"
+        target="_blank"
+      >
+        <img class="icon" src="./Images/upwork.png" alt="Upwork" />
+      </a>
+
+      <a href="https://www.freelancer.com/u/wolwesking" target="_blank">
+        <img class="icon" src="./Images/freelancer.png" alt="Freelancer" />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/patrick-takacs-5798a6248/"
+        target="_blank"
+      >
+        <img
+          class="icon"
+          src="./Images/LinkedIn_logo_initials.png"
+          alt="Linkedin"
+        />
+      </a>
+      <a href="https://twitter.com/wolwesking" target="_blank">
+        <img class="icon" src="/Images/twitter.png" alt="Twitter" />
+      </a>
+    </nav>
+    <main>
+      <nav id="Buttons">
+        <div class="ButtonsDiv" onclick="location.href='/'">Projects</div>
+        <div class="ButtonsDiv" onclick="location.href='./skills.html'">
+          Skills
+        </div>
+        <div class="ButtonsDiv" onclick="location.href='./works.html'">
+          Work
+        </div>
+        <div class="ButtonsDiv">Certifications</div>
+      </nav>
+      <section class="Certifications">
+        <h1>Web development</h1>
+        <a
+          href="https://www.freecodecamp.org/certification/Wolwesking/javascript-algorithms-and-data-structures"
+        >
+          <img
+            class="cert"
+            src="./Images/Js.png"
+            alt="javascript-algorithms-and-data-structures"
+          />
+        </a>
+        <a
+          href="https://www.freecodecamp.org/certification/Wolwesking/responsive-web-design"
+          ><img
+            class="cert"
+            src="./Images/Responsive.png"
+            alt="responsive-web-design"
+        /></a>
+      </section>
+      <section id="Certifications_flex" style="margin-top: 100px">
+        <h1>Desktop</h1>
+
+        <img class="cert" src="./Images/Cpp.jpg" alt="Cpp_Programming hero" />
+      </section>
+    </main>
+  </body>
+</html>
